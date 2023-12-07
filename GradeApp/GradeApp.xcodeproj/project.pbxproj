@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40933372B20945A00806561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40933362B20945A00806561 /* AppDelegate.swift */; };
+		A40933392B20945A00806561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40933382B20945A00806561 /* SceneDelegate.swift */; };
+		A409333B2B20945A00806561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409333A2B20945A00806561 /* ViewController.swift */; };
+		A409333E2B20945A00806561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A409333C2B20945A00806561 /* Main.storyboard */; };
+		A40933402B20945B00806561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A409333F2B20945B00806561 /* Assets.xcassets */; };
+		A40933432B20945B00806561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40933412B20945B00806561 /* LaunchScreen.storyboard */; };
+		A409334B2B2098FE00806561 /* NotlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409334A2B2098FE00806561 /* NotlarTableViewCell.swift */; };
+		A409334D2B209B0A00806561 /* EkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A409334C2B209B0A00806561 /* EkleViewController.swift */; };
+		A40933512B209B2F00806561 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40933502B209B2F00806561 /* EditViewController.swift */; };
+		A40933602B20A8EB00806561 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A40933592B20A8EB00806561 /* FMDatabaseAdditions.m */; };
+		A40933612B20A8EB00806561 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A409335B2B20A8EB00806561 /* FMDatabasePool.m */; };
+		A40933622B20A8EB00806561 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A409335C2B20A8EB00806561 /* FMResultSet.m */; };
+		A40933632B20A8EB00806561 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A409335D2B20A8EB00806561 /* FMDatabaseQueue.m */; };
+		A40933642B20A8EB00806561 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A409335F2B20A8EB00806561 /* FMDatabase.m */; };
+		A40933682B20ABD800806561 /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40933672B20ABD800806561 /* Notlar.swift */; };
+		A409336A2B20DCB800806561 /* Notlardao.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40933692B20DCB800806561 /* Notlardao.swift */; };
+		A409336E2B20ED1400806561 /* notlar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A409336D2B20ED1300806561 /* notlar.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A40933332B20945A00806561 /* GradeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40933362B20945A00806561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A40933382B20945A00806561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A409333A2B20945A00806561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A409333D2B20945A00806561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A409333F2B20945B00806561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A40933422B20945B00806561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A40933442B20945B00806561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A409334A2B2098FE00806561 /* NotlarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotlarTableViewCell.swift; sourceTree = "<group>"; };
+		A409334C2B209B0A00806561 /* EkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkleViewController.swift; sourceTree = "<group>"; };
+		A40933502B209B2F00806561 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		A40933532B20A1F300806561 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A40933542B20A8EB00806561 /* GradeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A40933552B20A8EB00806561 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A40933562B20A8EB00806561 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A40933572B20A8EB00806561 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A40933582B20A8EB00806561 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A40933592B20A8EB00806561 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A409335A2B20A8EB00806561 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A409335B2B20A8EB00806561 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A409335C2B20A8EB00806561 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A409335D2B20A8EB00806561 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A409335E2B20A8EB00806561 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A409335F2B20A8EB00806561 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A40933672B20ABD800806561 /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+		A40933692B20DCB800806561 /* Notlardao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlardao.swift; sourceTree = "<group>"; };
+		A409336D2B20ED1300806561 /* notlar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = notlar.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40933302B20945A00806561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A409332A2B20945A00806561 = {
+			isa = PBXGroup;
+			children = (
+				A40933352B20945A00806561 /* GradeApp */,
+				A40933342B20945A00806561 /* Products */,
+				A40933522B20A1F300806561 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A40933342B20945A00806561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40933332B20945A00806561 /* GradeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40933352B20945A00806561 /* GradeApp */ = {
+			isa = PBXGroup;
+			children = (
+				A409336D2B20ED1300806561 /* notlar.sqlite */,
+				A40933362B20945A00806561 /* AppDelegate.swift */,
+				A40933382B20945A00806561 /* SceneDelegate.swift */,
+				A40933692B20DCB800806561 /* Notlardao.swift */,
+				A409333A2B20945A00806561 /* ViewController.swift */,
+				A409334A2B2098FE00806561 /* NotlarTableViewCell.swift */,
+				A409334C2B209B0A00806561 /* EkleViewController.swift */,
+				A40933502B209B2F00806561 /* EditViewController.swift */,
+				A40933672B20ABD800806561 /* Notlar.swift */,
+				A409333C2B20945A00806561 /* Main.storyboard */,
+				A409333F2B20945B00806561 /* Assets.xcassets */,
+				A40933412B20945B00806561 /* LaunchScreen.storyboard */,
+				A40933442B20945B00806561 /* Info.plist */,
+				A40933552B20A8EB00806561 /* FMDatabase.h */,
+				A409335F2B20A8EB00806561 /* FMDatabase.m */,
+				A40933562B20A8EB00806561 /* FMDatabaseAdditions.h */,
+				A40933592B20A8EB00806561 /* FMDatabaseAdditions.m */,
+				A409335A2B20A8EB00806561 /* FMDatabasePool.h */,
+				A409335B2B20A8EB00806561 /* FMDatabasePool.m */,
+				A409335E2B20A8EB00806561 /* FMDatabaseQueue.h */,
+				A409335D2B20A8EB00806561 /* FMDatabaseQueue.m */,
+				A40933572B20A8EB00806561 /* FMDB.h */,
+				A40933582B20A8EB00806561 /* FMResultSet.h */,
+				A409335C2B20A8EB00806561 /* FMResultSet.m */,
+				A40933542B20A8EB00806561 /* GradeApp-Bridging-Header.h */,
+			);
+			path = GradeApp;
+			sourceTree = "<group>";
+		};
+		A40933522B20A1F300806561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40933532B20A1F300806561 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40933322B20945A00806561 /* GradeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40933472B20945B00806561 /* Build configuration list for PBXNativeTarget "GradeApp" */;
+			buildPhases = (
+				A409332F2B20945A00806561 /* Sources */,
+				A40933302B20945A00806561 /* Frameworks */,
+				A40933312B20945A00806561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradeApp;
+			productName = GradeApp;
+			productReference = A40933332B20945A00806561 /* GradeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A409332B2B20945A00806561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A40933322B20945A00806561 = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = A409332E2B20945A00806561 /* Build configuration list for PBXProject "GradeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A409332A2B20945A00806561;
+			productRefGroup = A40933342B20945A00806561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40933322B20945A00806561 /* GradeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40933312B20945A00806561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40933432B20945B00806561 /* LaunchScreen.storyboard in Resources */,
+				A409336E2B20ED1400806561 /* notlar.sqlite in Resources */,
+				A40933402B20945B00806561 /* Assets.xcassets in Resources */,
+				A409333E2B20945A00806561 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A409332F2B20945A00806561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A409336A2B20DCB800806561 /* Notlardao.swift in Sources */,
+				A409334D2B209B0A00806561 /* EkleViewController.swift in Sources */,
+				A409333B2B20945A00806561 /* ViewController.swift in Sources */,
+				A40933512B209B2F00806561 /* EditViewController.swift in Sources */,
+				A40933682B20ABD800806561 /* Notlar.swift in Sources */,
+				A40933372B20945A00806561 /* AppDelegate.swift in Sources */,
+				A40933392B20945A00806561 /* SceneDelegate.swift in Sources */,
+				A40933632B20A8EB00806561 /* FMDatabaseQueue.m in Sources */,
+				A40933612B20A8EB00806561 /* FMDatabasePool.m in Sources */,
+				A40933622B20A8EB00806561 /* FMResultSet.m in Sources */,
+				A40933602B20A8EB00806561 /* FMDatabaseAdditions.m in Sources */,
+				A40933642B20A8EB00806561 /* FMDatabase.m in Sources */,
+				A409334B2B2098FE00806561 /* NotlarTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A409333C2B20945A00806561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A409333D2B20945A00806561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A40933412B20945B00806561 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40933422B20945B00806561 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40933452B20945B00806561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A40933462B20945B00806561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40933482B20945B00806561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WAJ4W835K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omercakar.GradeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GradeApp/GradeApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40933492B20945B00806561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WAJ4W835K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GradeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omercakar.GradeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GradeApp/GradeApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A409332E2B20945A00806561 /* Build configuration list for PBXProject "GradeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40933452B20945B00806561 /* Debug */,
+				A40933462B20945B00806561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40933472B20945B00806561 /* Build configuration list for PBXNativeTarget "GradeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40933482B20945B00806561 /* Debug */,
+				A40933492B20945B00806561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A409332B2B20945A00806561 /* Project object */;
+}
