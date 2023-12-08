@@ -1,5 +1,6 @@
 # MyGradeApp
-* Made using sqlite database 
+* Made using sqlite database
+* New ! Added button with sorting function
 
 
 
