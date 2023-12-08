@@ -31,6 +31,15 @@ class ViewController: UIViewController {
         
     }
     
+    
+    @IBAction func descOrder(_ sender: Any) {
+        
+        notlarListe = Notlardao().siralamaliAlma()
+        
+        tableViewNotlar.reloadData()
+    }
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         notlarListe = Notlardao().tumNotlarAl()
         

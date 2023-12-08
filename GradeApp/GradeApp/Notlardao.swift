@@ -53,6 +53,38 @@ class Notlardao{
         
     }
     
+    func siralamaliAlma() -> [Notlar]{
+        
+        var liste = [Notlar]()
+        
+        db?.open()
+        
+        do{
+            // sorgu için executequery (veri çekme)
+            let rs = try db!.executeQuery("SELECT * FROM notlar ORDER BY ders_adi DESC", values: nil)
+            
+            // tek tek( satır satır alma)  notları aldığımız kısım , veritabanındaki her bir alandan verileri alcaz
+            while rs.next(){
+                let not = Notlar(not_id: Int(rs.string(forColumn: "not_id"))!
+                                 , ders_adi: rs.string(forColumn: "ders_adi")
+                                 , vize: Int(rs.string(forColumn: "vize"))!
+                                 , final: Int(rs.string(forColumn: "final"))!)
+                
+                liste.append(not)
+            }
+        }catch{
+            print(error.localizedDescription)
+        }
+        
+        
+        db?.close()
+        
+        return liste
+        
+    }
+    
+    
+    
     func notEkle(ders_adi:String, vize:Int, final:Int){
         db?.open()
         

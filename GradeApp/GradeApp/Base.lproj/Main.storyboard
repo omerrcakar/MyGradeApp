@@ -84,11 +84,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Not Uygulamasi" prompt="Ortalamam : YOK" id="4uP-7V-WN7">
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="Eng-Qf-gNz">
-                            <connections>
-                                <segue destination="LhP-Ha-iAu" kind="show" identifier="" id="wyl-uA-wxV"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem style="done" systemItem="add" id="Eng-Qf-gNz">
+                                <connections>
+                                    <segue destination="LhP-Ha-iAu" kind="show" identifier="" id="wyl-uA-wxV"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Desc" id="ljn-ZZ-WtP">
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <connections>
+                                    <action selector="descOrder:" destination="BYZ-38-t0r" id="Lg8-oh-cZW"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="searchBar" destination="021-sv-8tT" id="avN-rS-0VD"/>
